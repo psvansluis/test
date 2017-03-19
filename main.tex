@@ -1,7 +1,10 @@
 \documentclass[a4paper]{memoir}
 
-% \usepackage{libertine}
-\usepackage{biblatex}
+\usepackage{libertine} \usepackage[%
+backend=biber, style=mla ]{biblatex} \addbibresource{pers.bib}
+
+\usepackage{fontspec}
+
 
 \usepackage[utf8]{inputenc}
 \usepackage{booktabs}
@@ -24,5 +27,10 @@
   \label{tab:foos}
 \end{table}
 Ûntstien! \^U%
-ntstien 
+ntstien
+
+\autocite{harvey_aspects_1984}
+\autocite{lewis_concise_1974}
+
+\printbibliography
 \end{document}
