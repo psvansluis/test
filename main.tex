@@ -1,7 +1,11 @@
 \documentclass[a4paper]{memoir}
 
-\usepackage{libertine} \usepackage[%
-backend=biber, style=mla ]{biblatex} \addbibresource{pers.bib}
+\usepackage{libertine}
+\usepackage[%
+backend=biber,
+style=mla
+]{biblatex}
+\addbibresource{pers.bib}
 
 \usepackage{fontspec}
 
@@ -36,10 +40,16 @@ ntstien
 
 \printbibliography
 \section{Paulus}
+\label{sec:paulus}
+\pageref{sec:paulus}
 
 \[\ln{2}\pi\]
 
 \input{slave}
+\cite{rodway_datable_1998}
+\autocite{parry_owen_concordans_???}
+
+\input{extra}
 
 \end{document}
 
